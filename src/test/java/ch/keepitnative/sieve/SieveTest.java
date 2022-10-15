@@ -45,7 +45,7 @@ public class SieveTest {
     public void testn3() {
         sieve = new Sieve(3);
         List<Integer> actual = sieve.getPrimes();
-        Assertions.assertEquals(1, actual.size(), "one prime up to 10");
+        Assertions.assertEquals(1, actual.size(), "one prime up to 3");
     }
 
     @Test
